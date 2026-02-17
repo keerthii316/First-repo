@@ -1,0 +1,67 @@
+*{
+    div{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+.container{
+    width: 70%;
+    height:100vh;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.box{
+    height:100px;
+    color:aqua;
+    font-size: 18px;
+    font-weight: bold;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 6px;
+    text-align: center;
+}
+.box1{
+    background-color: aliceblue;
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: blueviolet;
+}
+.box4{
+    background-color: cornflowerblue;
+}
+.box5{
+    background-color: chocolate;
+}
+.box6{
+    background-color: darkcyan;
+}
+.box7{
+    background-color: darkorange;
+}
+.box8{
+    background-color: darkgreen;
+}
+.box9{
+    background-color: darkred;
+}
+.box10{
+    background-color: goldenrod;
+}
+.box11{
+    background-color: lightpink;
+}
+.box12{
+    background-color: aqua;
+}
+.box13{
+    background-color: indianred;
+}
+.box14{
+    background-color: darkslategray;
+}
